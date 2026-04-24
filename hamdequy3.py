@@ -1,6 +1,8 @@
-def tinh_tong(n):
-    if n == 1:
-        return 1
-    return n + tinh_tong(n - 1)
+def tinh_luy_thua(a, b):
+    
+    ket_qua = a ** b
+    return ket_qua
 
-print(f"\nTổng từ 1 đến 10 là: {tinh_tong(10)}")
+a = 2
+b = 3
+print(f"{a}^{b} = {tinh_luy_thua(a, b)}") 
