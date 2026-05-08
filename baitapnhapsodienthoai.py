@@ -1,0 +1,5 @@
+S = input("Nhập số điện thoại: ")
+digits_in_phone = set(S)
+all_digits = set(str(i) for i in range(10))
+missing = sorted(all_digits - digits_in_phone)
+print(f"Trong số điện thoại {S} không chứa các ký số: {missing}")
