@@ -11,6 +11,7 @@ def decode(cipher_text):
                 i += 1
             
             if i < len(cipher_text):
+                
                 char = cipher_text[i]
                 result.append(char * int(num_str))
                 i += 1
@@ -18,6 +19,7 @@ def decode(cipher_text):
             result.append(cipher_text[i])
             i += 1
     return ''.join(result)
+
 
 
 print(decode("XY#6Z1#4023"))     

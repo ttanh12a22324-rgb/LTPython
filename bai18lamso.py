@@ -25,6 +25,7 @@ def in_ket_qua(ten, ham, gioi_han=1_000_001):
     print("=" * 60)
     for i in range(1, gioi_han):
         if ham(i):
+                    
             print(i, end=" ")
     print("\n")
 
